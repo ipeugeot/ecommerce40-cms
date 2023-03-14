@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/ecommerce40-cms" mode="merge"/>
+    <filter root="/content/ecommerce40-cms" mode="merge"/>
+    <filter root="/content/dam/ecommerce40-cms" mode="merge">
+        <exclude pattern="/content/dam/ecommerce40-cms(/.*)?"/>
+        <include pattern="/content/dam/ecommerce40-cms/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/ecommerce40-cms/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/ecommerce40-cms" mode="merge"/>
+</workspaceFilter>
